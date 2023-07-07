@@ -1,0 +1,32 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  width: 50%;
+  // margin-bottom: 10%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: rgba(54, 54, 54, 1);
+  @media (max-width: 800px) {
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  @media (max-width: 500px) {
+  }
+}
+
+.left {
+  text-align: right;
+}
+.right {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}

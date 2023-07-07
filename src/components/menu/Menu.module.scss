@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  // background-image: url("../../assets/back1.png");
+  // background-position: 100%;
+  // background-size: 20%;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  @media (max-width: 520px) {
+  }
+}
+.image-div {
+  padding: 24px;
+}
+// .image_all {
+//   // height: auto;
+//   // width: 100%;
+// }

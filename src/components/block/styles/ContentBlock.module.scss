@@ -1,0 +1,52 @@
+.contentBlock {
+  display: grid;
+  overflow: hidden;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  padding: 80px 0;
+
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.row {
+  grid-template-columns: 1fr 1fr;
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
+}
+.column {
+  grid-template-rows: 1fr 1fr;
+  @media (max-width: 500px) {
+    grid-template-rows: 1fr;
+  }
+}
+.gap- {
+  gap: 0;
+}
+
+.gap-4 {
+  gap: 4px;
+}
+.gap-8 {
+  gap: 8px;
+}
+.gap-16 {
+  gap: 16px;
+}
+
+.oneBlock {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.twoBlock {
+}
+
+.bg-template {
+}
+
+.sky_blue {
+  // background: linear-gradient(to left, rgb(255, 255, 255), rgb(235, 236, 235));
+}

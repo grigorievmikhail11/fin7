@@ -1,0 +1,53 @@
+.imageBlock {
+  // background-position: 100%;
+  // background-size: 70%;
+  // background-image: url('../../assets/back1.png');
+  display: grid;
+  margin: 0 auto;
+
+  img {
+    object-fit: contain;
+    height: 100%;
+    width: auto;
+    // @media (max-width: 500px) {
+    //   object-fit: scale-down;
+    // }
+  }
+}
+
+.imageContainer {
+  height: 400px;
+  overflow: hidden;
+}
+
+.normal {
+}
+
+.br_none {
+  border-radius: none;
+}
+
+.br_15px {
+  border-radius: 15px;
+}
+
+.logo_center {
+  margin: 0 auto;
+}
+.logo_left {
+  margin-right: auto;
+}
+.logo_right {
+  margin-left: auto;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+
+  img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+}
